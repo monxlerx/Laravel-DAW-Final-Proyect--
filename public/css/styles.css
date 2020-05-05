@@ -1,0 +1,205 @@
+#logo_login {
+    border-radius: 100%;
+    width: 45px;
+}
+
+/*Teacher´s*/
+#card_teacher {
+	background-color:lightslategray;
+	height: auto;
+	width: 320px;
+	margin: 30px auto;
+	border-radius: 25px;
+	padding-bottom: 1px;
+	box-shadow: 2px 2px 5px #4069E2;
+}
+
+#card_teacher h1 {
+	color: white;
+	text-align: center;
+	width: 100%;
+	background-color: #e8e9ec;
+	border-radius: 25px 25px 0 0;
+	color: lightslategray;
+	padding: 30px 0;
+	font-weight: 800;
+	margin: 0;
+}
+
+#card_teacher .image-crop {
+	display: block;
+	position: relative;
+	background-color: #e8e9ec;
+	width: 150px;
+	height: 150px;
+	margin: 0 auto;
+	margin-top: 30px;
+	overflow: hidden;
+	border-radius: 50%;
+	box-shadow: 1px 1px 5px #4069E2;
+}
+
+#card_teacher #avatar {
+	display: inline;
+	height: 100px;
+	width: auto;
+	margin-left: 34px;
+	margin-top: 15px;
+}
+
+#card_teacher #bio {
+	display: block;
+	margin: 30px auto;
+	width: 280px;
+	height: auto;
+}
+
+#card_teacher #bio p {
+	color: #e8e9ec;
+	font-weight: lighter;
+	font-size: 15px;
+	text-align: justify;
+}
+
+#card_teacher .col {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	width: auto;
+}
+
+#card_teacher .stat {
+	font-size: 25px;
+	margin: 0;
+}
+
+#card_teacher .label {
+	margin: 0;
+}
+
+#card_teacher #buttons {
+	display: flex;
+	margin: 0 auto;
+	justify-content: space-between;
+	width: 280px;
+}
+
+#card_teacher #card button {
+	display: block;
+	position: relative;
+	padding: 10px 0;
+	width: 130px;
+	margin: 30px 0;
+	border-radius: 25px;
+	border: none;
+	font-size: 20px;
+	letter-spacing: 0.2px;
+	font-weight: 500;
+	background-color: #4069E2;
+	color: #e8e9ec;
+}
+
+#card_teacher #card button:focus {
+	display: none;
+}
+
+#card_teacher #card button:hover {
+	transform: scale(1.03);
+	cursor: pointer;
+	transition: all 0.2s ease-in-out;
+}
+
+#card_teacher #msg{
+	background-color: #e8e9ec;
+	color: lightslategray;
+}
+
+.head-table {
+    background-color: #343a40;
+    color:aliceblue;
+}
+
+/*FAQ*/
+#faq body {
+    padding: 30px;
+    background: #888cf0;
+    color: #fff;
+}
+
+#faq html {
+    overflow-y: scroll;
+}
+
+#faq strong {
+    color: #888cf0;
+    text-decoration: underline;
+}
+
+#faq ul {
+    margin-bottom: 0;
+}
+
+#faq .heading {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+
+}
+
+#faq .accordion {
+    background: #e8e9ec;
+    border-radius: 5px;
+    padding: 45px;
+}
+
+#faq .question {
+    border-top: 1px dotted #888cf0;
+    padding: 25px;
+    cursor: pointer;
+    position: relative;
+}
+
+#faq .question h2,
+.question i {
+    color: #888cf0;
+    margin: 0;
+    font-size: 22px;
+}
+
+#faq .question i {
+    font-size: 18px;
+    position: absolute;
+    right: 25px;
+    top: 0;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+}
+
+#faq .answer {
+    transition: 1s cubic-bezier(0.175, 0.885, 0.32, 1.275) all;
+    max-height: 0;
+    overflow: hidden;
+}
+
+#faq .answer p {
+    padding: 25px;
+}
+
+#faq .accordion li.open .question i {
+    transform: rotate(180deg);
+}
+
+#faq .accordion li.open .answer {
+    max-height: 150px;
+}
+
+#date-available .text-center, .heading {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
