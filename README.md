@@ -1,0 +1,2 @@
+# Laravel-DAW-Final-Proyect--
+El proyecto consiste en la elaboración de una aplicación web para una empresa del sector de la educación, en concreto relacionada con la enseñanza de idiomas. La aplicación constará de dos partes bien diferenciadas. Por un lado, tendremos un frontend que tendrá una finalidad informativa para los usuarios y, por otro, un backend donde los usuarios que se registren podrán acceder a una aplicación capaz de gestionar las reservas de los diferentes servicios ofrecidos por la academia.
